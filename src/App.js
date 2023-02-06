@@ -41,7 +41,7 @@ function App() {
         <div className="weather">
           <h1 className='heading'>Weather App</h1>
           <div className="d-grid gap-3 col-4 mt-4">
-            <input type="text" className='form-control' value={input} onChange={handleChange} />
+            <input placeholder='City Name' type="text" className='form-control' value={input} onChange={handleChange} />
             <button onClick={handleSearch} className='btn btn-primary' type='button'>Search</button>
           </div>
         </div>
