@@ -40,7 +40,7 @@ function App() {
       <div className="col-md-12">
         <div className="weather">
           <h1 className='heading'>Weather App</h1>
-          <div className="d-grid gap-3 col-4 mt-4">
+          <div className="d-grid gap-3 col-md-4 mt-4">
             <input placeholder='City Name' type="text" className='form-control' value={input} onChange={handleChange} />
             <button onClick={handleSearch} className='btn btn-primary' type='button'>Search</button>
           </div>
