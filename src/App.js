@@ -29,7 +29,6 @@ function App() {
 
   const handleSearch = () => {
     if (!input) {
-      // alert('Please enter city name')
       toast.error('Please enter city name', {
         position: "top-right",
         autoClose: 2000,
@@ -67,7 +66,7 @@ function App() {
                     <h5 className='city'>{data?.name}</h5>
                     <h6 className="temp">{((data?.main?.temp) - 273.15).toFixed(2)}°C</h6>
                   </div>)
-                  : (<h1>Nothing to show, Please search for city name!</h1>)}
+                  : (<h2 className='text-center text-black'>Nothing to show, Please search for city name!</h2>)}
               </div>
             </div>
           </div>
