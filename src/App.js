@@ -38,7 +38,7 @@ function App() {
         pauseOnHover: true,
         draggable: true,
         progress: undefined,
-        theme: "color",
+        theme: "light",
       });
     }
     searchWeather(input);
