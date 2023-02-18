@@ -29,7 +29,7 @@ function App() {
 
   const handleSearch = () => {
     if (!input) {
-      toast.error('Please enter city name', {
+      toast.error('enter city name', {
         position: "top-right",
         autoClose: 2000,
         hideProgressBar: false,
